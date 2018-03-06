@@ -1,1 +1,23 @@
 
+**  Create two entity classes
+
+    @Entity
+    pubclic class Vehicle{
+      @Id
+      @GeneratedValue
+      private int vehicleId;
+      private String vehicleName;
+      
+      // getters & setters
+      
+     }
+     
+     Note: Dont forget to add in the mapping tag of the hibernate.cfg.xml file.
+     
+     And we already have a UserDetailsEntity class with Username and UserId as member variables.
+
+**
+
+**   Now we do the mapping between the UserDetails and Vehicle
+     
+     How it happe
